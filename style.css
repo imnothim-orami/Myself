@@ -8,36 +8,28 @@ html {
 
 body {
     margin: 0;
-    padding: 0;
     font-family: Arial, sans-serif;
-    font-size: 16px;
     color: #243047;
-    background-color: #f7f9fc;
+    background: #f7f9fc;
 }
 
 .container {
     width: 90%;
     max-width: 1100px;
     margin: auto;
-    padding: 0 20px;
 }
-
-
-/* Header */
 
 .header {
     padding: 25px 0;
-    background-color: #172554;
+    background: #172554;
     color: white;
 }
 
 .header h1 {
     margin: 0;
-    font-size: 28px;
 }
 
 .header p {
-    margin: 0 0 15px;
     color: #bfdbfe;
 }
 
@@ -49,15 +41,11 @@ nav a {
     margin-left: 20px;
     color: white;
     text-decoration: none;
-    font-weight: bold;
 }
 
 nav a:hover {
     color: #67e8f9;
 }
-
-
-/* Hero */
 
 .hero {
     padding: 80px 0;
@@ -69,99 +57,82 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
 }
 
 .hero-text {
-    max-width: 650px;
+    max-width: 600px;
 }
 
 .small-title {
     color: #a5f3fc;
-    font-size: 13px;
     font-weight: bold;
-    letter-spacing: 2px;
 }
 
 .hero h2 {
-    margin: 15px 0;
-    font-size: 55px;
+    font-size: 50px;
 }
 
 .hero-text > p:not(.small-title) {
-    color: #e0e7ff;
     font-size: 18px;
 }
 
 .button {
     display: inline-block;
-    padding: 12px 25px;
+    padding: 10px 20px;
     border: 2px solid white;
-    border-radius: 30px;
+    border-radius: 25px;
     color: white;
     text-decoration: none;
-    font-weight: bold;
 }
 
 .button:hover {
-    background-color: white;
+    background: white;
     color: #4338ca;
 }
 
 .hero-card {
-    width: 280px;
-    padding: 35px;
+    width: 250px;
+    padding: 30px;
     border-radius: 20px;
-    background-color: #ffffff22;
+    background: #ffffff33;
     text-align: center;
 }
 
 .hero-card span {
-    display: block;
-    color: #67e8f9;
     font-size: 50px;
-    font-weight: bold;
+    color: #67e8f9;
 }
 
 .hero-card h3 {
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .hero-card p {
     color: #dbeafe;
 }
 
-
-/* Sections */
-
 .section {
-    padding: 70px 0;
+    padding: 60px 0;
 }
 
 .section-title {
-    margin: 0 0 15px;
     color: #172554;
-    font-size: 35px;
     text-align: center;
 }
 
 .intro {
     max-width: 700px;
-    margin: 0 auto 40px;
-    color: #64748b;
+    margin: auto;
     text-align: center;
+    color: #64748b;
 }
-
-
-/* About */
 
 .about-box {
     max-width: 800px;
-    margin: auto;
-    padding: 30px;
-    border-left: 6px solid #6366f1;
-    border-radius: 10px;
-    background-color: white;
+    margin: 40px auto;
+    padding: 25px;
+    border-left: 5px solid #6366f1;
+    background: white;
 }
 
 .about-box h3 {
@@ -172,25 +143,20 @@ nav a:hover {
     color: #64748b;
 }
 
-
-/* Skills */
-
 .skills-section {
-    background-color: #eef2ff;
+    background: #eef2ff;
 }
 
 .cards {
     display: flex;
-    gap: 25px;
-    margin-top: 40px;
+    gap: 20px;
 }
 
 .card {
-    width: 33.33%;
-    padding: 30px;
-    border: 1px solid #e0e7ff;
+    width: 33%;
+    padding: 25px;
+    background: white;
     border-radius: 15px;
-    background-color: white;
 }
 
 .card:hover {
@@ -198,12 +164,10 @@ nav a:hover {
 }
 
 .icon {
-    display: inline-block;
-    padding: 8px 14px;
-    border-radius: 10px;
+    padding: 8px;
     color: white;
-    background-color: #6366f1;
-    font-weight: bold;
+    background: #6366f1;
+    display: inline-block;
 }
 
 .card h3 {
@@ -214,35 +178,24 @@ nav a:hover {
     color: #64748b;
 }
 
-
-/* Projects */
-
 .projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-    margin-top: 40px;
+    gap: 20px;
 }
 
 .project {
-    position: relative;
-    min-height: 250px;
-    padding: 30px;
+    padding: 25px;
+    background: white;
     border-radius: 15px;
-    background-color: white;
 }
 
 .project-number {
-    position: absolute;
-    top: 10px;
-    right: 20px;
     color: #c7d2fe;
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 40px;
 }
 
 .project h3 {
-    margin-top: 40px;
     color: #312e81;
 }
 
@@ -253,7 +206,6 @@ nav a:hover {
 .project a {
     color: #4f46e5;
     text-decoration: none;
-    font-weight: bold;
 }
 
 .project a:hover {
@@ -262,75 +214,51 @@ nav a:hover {
 
 .featured {
     border: 2px solid #6366f1;
-    background-color: #eef2ff;
+    background: #eef2ff;
 }
 
-
-/* Quote */
-
 .quote-section {
-    padding: 70px 0;
-    background-color: #172554;
+    padding: 60px 0;
+    background: #172554;
     color: white;
     text-align: center;
 }
 
 .quote {
-    font-size: 30px;
+    font-size: 28px;
     font-style: italic;
-    font-weight: bold;
 }
 
 .quote-author {
     color: #93c5fd;
 }
 
-
-/* Contact */
-
 .contact {
-    background-color: white;
+    background: white;
     text-align: center;
 }
 
 .contact p {
-    max-width: 600px;
-    margin: 0 auto 30px;
     color: #64748b;
 }
 
-
-/* Footer */
-
 footer {
-    padding: 30px 0;
-    background-color: #0f172a;
+    padding: 25px;
+    background: #0f172a;
     color: #94a3b8;
     text-align: center;
 }
 
 footer p {
     display: inline;
-    margin: 0 15px;
+    margin: 10px;
 }
-
-
-/* Mobile */
 
 @media (max-width: 800px) {
 
     .hero .container {
         flex-direction: column;
         text-align: center;
-    }
-
-    .hero h2 {
-        font-size: 40px;
-    }
-
-    .hero-card {
-        width: 100%;
-        max-width: 320px;
     }
 
     .cards {
@@ -346,7 +274,6 @@ footer p {
     }
 
     nav {
-        margin-top: 15px;
         text-align: left;
     }
 
